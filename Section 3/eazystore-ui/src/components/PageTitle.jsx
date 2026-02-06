@@ -1,3 +1,3 @@
-export default function PageTitle(props) {
-  return <h1 className="page-title">{props.title}</h1>;
+export default function PageTitle({ title }) {
+  return <h1 className="page-title">{title}</h1>;
 }
