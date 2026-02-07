@@ -5,7 +5,7 @@ export default function PageHeading(props) {
   return (
     <div className="page-heading-container">
       <PageTitle title="Explore StickERY" />
-      <p className="page-heading-paragraph">{props.children}</p>
+      {props.children}
     </div>
   );
 }
