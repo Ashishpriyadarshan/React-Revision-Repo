@@ -4,7 +4,7 @@ import PageTitle from "./PageTitle";
 export default function PageHeading(props) {
   return (
     <div className="page-heading-container">
-      <PageTitle title="Explore StickERY" />
+      <PageTitle title={props.title} />
       {props.children}
     </div>
   );
