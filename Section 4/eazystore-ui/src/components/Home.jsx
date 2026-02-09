@@ -1,6 +1,7 @@
 import products from "../data/products";
 import PageHeading from "./PageHeading";
 import ProductListings from "./ProductListings";
+import DemoButton, { HomeButton } from "./styledButtons";
 
 export default function Home() {
   const isActive = Math.random() > 0.5;
@@ -16,6 +17,8 @@ export default function Home() {
       >
         Demo of inline css Home
       </h1>
+      <DemoButton>Styled-Button</DemoButton>
+      <HomeButton>Styled Home Button</HomeButton>
       <div className="home-container">
         <PageHeading title="Explore StickERY">
           <p className="page-heading-paragraph">

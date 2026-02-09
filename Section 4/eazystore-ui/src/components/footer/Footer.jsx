@@ -3,6 +3,7 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons/faHeart";
 // import "./footer.css";
 import styles from "./footer.module.css";
 import styled from "styled-components";
+import DemoButton from "../styledButtons";
 
 const H1 = styled.h1`
   color: orange;
@@ -13,6 +14,7 @@ export default function Footer() {
   return (
     <>
       <H1>Demo of Styled Components from Footer</H1>
+      <DemoButton>Styled-Button</DemoButton>
       {/* <h1
         className={`${styles["my-heading"]}
       ${isActive ? styles["primary-color"] : styles["secondary-color"]}`}
