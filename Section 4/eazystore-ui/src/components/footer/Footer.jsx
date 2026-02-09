@@ -14,7 +14,7 @@ export default function Footer() {
   return (
     <>
       <H1>Demo of Styled Components from Footer</H1>
-      <DemoButton>Styled-Button</DemoButton>
+      <DemoButton $primary>Styled-Button</DemoButton>
       {/* <h1
         className={`${styles["my-heading"]}
       ${isActive ? styles["primary-color"] : styles["secondary-color"]}`}
