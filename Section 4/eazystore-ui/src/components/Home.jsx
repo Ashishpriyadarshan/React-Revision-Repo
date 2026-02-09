@@ -14,7 +14,7 @@ export default function Home() {
       <h1
         className={`my-heading ${isActive ? "primary-color" : "secondary-color"}`}
       >
-        Demo of inline CSS
+        Demo of inline css Home
       </h1>
       <div className="home-container">
         <PageHeading title="Explore StickERY">
