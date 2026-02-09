@@ -6,11 +6,10 @@ export default function Footer() {
   return (
     <>
       <h1
-        style={
-          isActive
-            ? { textAlign: "center", color: "#808080" }
-            : { textAlign: "center", color: "green" }
-        }
+        style={{
+          textAlign: "center",
+          color: isActive ? "#808080" : "green",
+        }}
       >
         Showing inline CSS
       </h1>

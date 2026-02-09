@@ -23,6 +23,21 @@
     animation: pulse 1.5s infinite;
 }
 
+.my-heading
+{
+text-align: center;
+color: #5B21B6;
+}
+
+.primary-color
+{
+color: goldenrod;
+}
+
+.secondary-color
+{
+    color: red;
+}
 @keyframes pulse {
 
     0%,
