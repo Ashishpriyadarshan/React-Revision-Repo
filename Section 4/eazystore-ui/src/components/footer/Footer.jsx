@@ -2,9 +2,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons/faHeart";
 import "./footer.css";
 export default function Footer() {
+  const isActive = Math.random() > 0.5;
   return (
     <>
-      <h1 style={{ textAlign: "center", color: "#808080" }}>
+      <h1
+        style={
+          isActive
+            ? { textAlign: "center", color: "#808080" }
+            : { textAlign: "center", color: "green" }
+        }
+      >
         Showing inline CSS
       </h1>
       <footer className="footer">

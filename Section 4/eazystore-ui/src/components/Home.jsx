@@ -3,9 +3,10 @@ import PageHeading from "./PageHeading";
 import ProductListings from "./ProductListings";
 
 export default function Home() {
+  const isActive = Math.random() > 0.5;
   const h1Styling = {
     textAlign: "center",
-    color: "#5B21B6",
+    color: isActive ? "Grey" : "Black",
   };
 
   return (
